@@ -58,6 +58,13 @@ h1 {
   font-family: "Poppins", sans-serif;
 }
 
+h2 {
+  font-size: 1.5 rem;
+  margin-bottom: 0.75rem;
+  color: #ffffff;
+  text-align: center;
+  background-color: #1f4e79;;
+}
 .card-content {
   display: flex;
   align-items: center;
