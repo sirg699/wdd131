@@ -26,7 +26,6 @@ header {
   margin-bottom: 0.75rem;
 }
 
-/* Navigation */
 nav {
   display: flex;
   justify-content: center;
@@ -39,6 +38,11 @@ nav a {
   font-weight: 500;
   padding: 0.4rem 0.6rem;
   transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #052b3f;
+  border-radius: 4px;
 }
 
 main {
