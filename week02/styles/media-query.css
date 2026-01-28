@@ -1,0 +1,18 @@
+.page {
+    max-width: 640px;
+    margin: 1rem auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    background-color: #6556ee;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+section {
+    padding: 1rem;
+    background-color: #1f75c5;
+}

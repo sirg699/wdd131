@@ -1,0 +1,22 @@
+@media screen and (min-width: 600px) {
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .temple-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    }
+
+    #menuBtn {
+    display: none;
+    }
+
+    nav ul {
+    display: flex;
+    justify-content: space-around;
+    }
+}
