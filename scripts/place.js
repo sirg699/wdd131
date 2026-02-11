@@ -1,8 +1,6 @@
-// STATIC WEATHER VALUES
-const temperature = 10; // °C
-const windSpeed = 5; // km/h
+const temperature = 10; 
+const windSpeed = 5; 
 
-// WIND CHILL FUNCTION (ONE-LINE RETURN)
 function calculateWindChill(temp, speed) {
   return (
     13.12 +
@@ -12,12 +10,10 @@ function calculateWindChill(temp, speed) {
   ).toFixed(1);
 }
 
-// DISPLAY WIND CHILL
 document.getElementById("windchill").textContent =
   temperature <= 10 && windSpeed > 4.8
     ? `${calculateWindChill(temperature, windSpeed)} °C`
     : "N/A";
 
-// FOOTER DATES
 document.getElementById("year").textContent = new Date().getFullYear();
 document.getElementById("lastModified").textContent = document.lastModified;

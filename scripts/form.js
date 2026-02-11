@@ -54,3 +54,6 @@ if (window.location.pathname.includes("review.html")) {
     reviewDisplay.textContent = reviewCount;
   }
 }
+
+document.getElementById("year").textContent = new Date().getFullYear();
+document.getElementById("lastModified").textContent = document.lastModified;
