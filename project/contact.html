@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>69foods | Reservations</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kennedy Iseh">
+    <meta name="description" content="Book a table at 69foods. Fill out the reservation form with your name, date, and number of guests to secure your spot at our restaurant.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Roboto&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="styles/69foods.css">
+    <link rel="stylesheet" href="styles/69foods-large.css">
+    <script src="scripts/69foods.js" defer></script>
+</head>
+<body>
+
+<header>
+    <h1>69foods</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Reservations</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h2>Book a Table</h2>
+
+    <form id="reservationForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" required>
+
+        <label for="guests">Guests:</label>
+        <input type="number" id="guests" min="1" required>
+
+        <button type="submit">Reserve</button>
+    </form>
+
+    <p id="confirmation"></p>
+</main>
+
+<footer>
+    <p>
+        © <span id="year"></span> Kennedy Iseh |🌍 69foods <br>
+        Last Modified: <span id="lastModified"></span>
+    </p>
+    <a href="references.html">References</a>
+</footer>
+
+</body>
+</html>

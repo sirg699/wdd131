@@ -1,0 +1,22 @@
+@media (min-width: 768px) {
+
+  .card-container {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+
+  .temple-card {
+    padding: 1.5rem;
+  }
+
+  .temple-card h2 {
+    font-size: 1.6rem;
+  }
+
+  .temple-card p {
+    font-size: 1rem;
+  }
+
+  .temple-card img {
+    margin-top: 1.2rem;
+  }
+}

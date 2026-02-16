@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>69foods | Menu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kennedy Iseh">
+    <meta name="description" content="Explore the delicious menu of 69foods! From mouth-watering main dishes to delectable desserts, our menu has something for everyone. Browse our offerings and find your next favorite meal at 69foods.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/69foods.css">
+    <link rel="stylesheet" href="styles/69foods-large.css">
+    <script src="scripts/69foods.js" defer></script>
+</head>
+<body>
+
+<header>
+    <h1>69foods</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Reservations</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h2>Our Menu</h2>
+
+    <select id="categoryFilter">
+        <option value="all">All</option>
+        <option value="main">Main</option>
+        <option value="dessert">Dessert</option>
+    </select>
+
+    <div id="menu-container" class="grid"></div>
+</main>
+
+<footer>
+    <p>
+        © <span id="year"></span> Kennedy Iseh |🌍 69foods <br>
+        Last Modified: <span id="lastModified"></span>
+    </p>
+    <a href="references.html">References</a>
+</footer>
+
+</body>
+</html>
